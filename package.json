@@ -1,0 +1,46 @@
+{
+  "name": "wav-admin-vite-template",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 12",
+    "pnpm": ">= 6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "bootstrap": "pnpm install",
+    "update": "pnpm up --latest"
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dayjs": "^1.10.7",
+    "element-plus": "^2.0.1",
+    "mitt": "^3.0.0",
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "pinia": "^2.0.11",
+    "vue": "^3.2.30",
+    "vue-global-api": "^0.4.1",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "typescript": "^4.5.5",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-vue-components": "^0.17.18",
+    "vite": "^2.8.0",
+    "vite-plugin-remove-console": "^0.0.6",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue-tsc": "^0.31.2"
+  }
+}
